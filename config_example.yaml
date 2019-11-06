@@ -1,7 +1,7 @@
 druid:
   # Set bypass_proxy to true to bypass system-configured proxy, for WMF SWAP/Jupyter setup.
   bypass_proxy: true
-  url: "protocol://host:port"
+  url: "http://druid1001.eqiad.wmnet:8082"
   endpoint: "druid/v2"
 
 # Config to translate from CN project to WMF production project, as it appears in the
