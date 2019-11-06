@@ -10,7 +10,7 @@ from .rates_query import RatesQuery
 path = os.path.dirname( __file__ )
 config_filename = os.path.join( path, '../config.yaml' )
 with open( config_filename, 'r' ) as stream:
-    config = yaml.load( stream )
+    config = yaml.safe_load( stream )
 
 # Prettier number displays
 pandas.set_option(
